@@ -18,3 +18,48 @@ a {
   text-decoration: inherit;
   color: inherit;
 }
+
+body {
+  background-color: rgb(255, 229, 235);
+  font-family: MalgunGothic, "맑은 고딕", "돋움", Dotum, AppleGothic, Sans-serif,
+    Arial;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  display: inline-block;
+  margin: 70px 0;
+  color: #660099;
+  position: relative;
+}
+
+.title::before {
+  content: " ";
+  height: 0.6rem;
+  width: 100%;
+  background-color: #b789cd;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+:root {
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+
+a,
+p {
+  font-size: 2.1rem;
+}
