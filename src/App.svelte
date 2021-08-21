@@ -1,9 +1,14 @@
 <script>
-  import Header from "./components/Header.svelte";
-  import Main from "./components/Main.svelte";
+  import { Router, Route } from "svelte-navigator";
+
+  import MainPage from "./pages/MainPage.svelte";
 </script>
 
-<Header />
+<Router>
+  <Route path="/">
+    <MainPage />
+  </Route>
+</Router>
 
 <!-- <Main /> -->
 <style>
