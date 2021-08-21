@@ -41,4 +41,9 @@
     transform: scale(1.1);
     transition: transform 0.6s;
   }
+  .header-title:focus {
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
 </style>
